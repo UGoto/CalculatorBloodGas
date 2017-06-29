@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var na: UITextField!
     @IBOutlet weak var k: UITextField!
     @IBOutlet weak var cl: UITextField!
-    @IBOutlet weak var albmin: UITextField!
     
+    @IBOutlet weak var resultPh: UITextField!
     @IBOutlet weak var bloodGas: UITextField!
     @IBOutlet weak var anionGap: UITextField!
 
@@ -44,57 +44,66 @@ class ViewController: UIViewController {
     
  
     
+  
+    
+    
+    
     //AnionGapの計算式
     @IBAction func calculateButton(_ sender: Any) {
         
         if na.text == "" || k.text == "" || cl.text == "" {
-            print("数値が入力されていない")
-            
-        }else {
+            print("数値が入力されていない")}
             let getNa:Double = Double(na.text!)!
             let getK:Double = Double(k.text!)!
             let getCl:Double = Double(cl.text!)!
-            
-            
+        
             anionGap.text = String(getNa - ( getK + getCl))
             
             anionGap.textAlignment = NSTextAlignment.center
-        }
     
     }
    
     
-    @IBAction func resultBloodGasButton(_ sender: UIButton) {
-        if ph.text == "" || paco2.text == "" || pao2.text == "" || hco3.text == "" {
-            print("数値が入力されていない")
-        }else {
+    
+    @IBAction func resultBloodGas(_ sender: UIButton) {
+        if ph.text == "" || paco2.text == "" || hco3.text == ""{
+        print("数値が入力されていない")
+        }else{
             let getPh:Double = Double(ph.text!)!
-            let getPao2:Double = Double(pao2.text!)!
             let getPaco2:Double = Double(paco2
                 .text!)!
             let getHco3:Double = Double(hco3
                 .text!)!
-        
-            if (getPh < 7.35 && getPao2 > 60 && getPaco2 > 45 && getHco3 > 20 && getHco3 < 24) {
-                print("呼吸性アシドーシス")
-                bloodGas.text = "呼吸性アシドーシス"
-                
-//            }else if getPh >= 7.35 && getPh <= 7.45{
             
+            //血ガス診断　４種類
+            if (getPh < 7.35 && getPaco2 > 45) {
+                bloodGas.text = "呼吸性アシドーシス"
+            }else if(getPh < 7.35 && getHco3 > 24){
+                bloodGas.text = "代謝性アシドーシス"
+            }else if(getPh > 7.45 && getPaco2 < 35){
+                bloodGas.text = "呼吸性アルカローシス"
+            }else if(getPh > 7.45 && getHco3 < 24){
+                bloodGas.text = "代謝性アルカローシス"
             }else{
-                print("その他")
-            bloodGas.text = "代謝性アシドーシス"
-                
+                bloodGas.text = ""
             }
-//
-//            resultOfBloodGas.text = String(getNa - ( getK + getCl))
-//            
-//            anionGap.textAlignment = NSTextAlignment.center
         }
-
-        
     }
+    
+    //アシデミアかアルカレミア
 
+    @IBAction func resultPh(_ sender: UIButton) {
+        let getPh:Double = Double(ph.text!)!
+        
+        if (getPh < 7.35){
+        resultPh.text = "アシデミア"
+        }else if(getPh >= 7.35 && getPh <= 7.45 ){
+        resultPh.text = "正常"
+        }else{
+        resultPh.text = "アルカレミア"
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

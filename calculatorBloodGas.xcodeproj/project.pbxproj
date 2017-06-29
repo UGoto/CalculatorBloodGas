@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4CB3BC1F03FB3500B924FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CB3BB1F03FB3500B924FF /* AppDelegate.swift */; };
+		BA4CB3BE1F03FB3500B924FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CB3BD1F03FB3500B924FF /* ViewController.swift */; };
+		BA4CB3C11F03FB3500B924FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4CB3BF1F03FB3500B924FF /* Main.storyboard */; };
+		BA4CB3C41F03FB3500B924FF /* calculatorBloodGas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4CB3C21F03FB3500B924FF /* calculatorBloodGas.xcdatamodeld */; };
+		BA4CB3C61F03FB3500B924FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4CB3C51F03FB3500B924FF /* Assets.xcassets */; };
+		BA4CB3C91F03FB3500B924FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4CB3C71F03FB3500B924FF /* LaunchScreen.storyboard */; };
+		BA4CB3D41F03FB3500B924FF /* calculatorBloodGasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CB3D31F03FB3500B924FF /* calculatorBloodGasTests.swift */; };
+		BA4CB3DF1F03FB3500B924FF /* calculatorBloodGasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CB3DE1F03FB3500B924FF /* calculatorBloodGasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4CB3D01F03FB3500B924FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4CB3B01F03FB3500B924FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4CB3B71F03FB3500B924FF;
+			remoteInfo = calculatorBloodGas;
+		};
+		BA4CB3DB1F03FB3500B924FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4CB3B01F03FB3500B924FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4CB3B71F03FB3500B924FF;
+			remoteInfo = calculatorBloodGas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA4CB3B81F03FB3500B924FF /* calculatorBloodGas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorBloodGas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4CB3BB1F03FB3500B924FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA4CB3BD1F03FB3500B924FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA4CB3C01F03FB3500B924FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4CB3C31F03FB3500B924FF /* calculatorBloodGas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calculatorBloodGas.xcdatamodel; sourceTree = "<group>"; };
+		BA4CB3C51F03FB3500B924FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4CB3C81F03FB3500B924FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4CB3CA1F03FB3500B924FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4CB3CF1F03FB3500B924FF /* calculatorBloodGasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorBloodGasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4CB3D31F03FB3500B924FF /* calculatorBloodGasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorBloodGasTests.swift; sourceTree = "<group>"; };
+		BA4CB3D51F03FB3500B924FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4CB3DA1F03FB3500B924FF /* calculatorBloodGasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorBloodGasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4CB3DE1F03FB3500B924FF /* calculatorBloodGasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorBloodGasUITests.swift; sourceTree = "<group>"; };
+		BA4CB3E01F03FB3500B924FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4CB3B51F03FB3500B924FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3CC1F03FB3500B924FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3D71F03FB3500B924FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4CB3AF1F03FB3500B924FF = {
+			isa = PBXGroup;
+			children = (
+				BA4CB3BA1F03FB3500B924FF /* calculatorBloodGas */,
+				BA4CB3D21F03FB3500B924FF /* calculatorBloodGasTests */,
+				BA4CB3DD1F03FB3500B924FF /* calculatorBloodGasUITests */,
+				BA4CB3B91F03FB3500B924FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4CB3B91F03FB3500B924FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CB3B81F03FB3500B924FF /* calculatorBloodGas.app */,
+				BA4CB3CF1F03FB3500B924FF /* calculatorBloodGasTests.xctest */,
+				BA4CB3DA1F03FB3500B924FF /* calculatorBloodGasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4CB3BA1F03FB3500B924FF /* calculatorBloodGas */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CB3BB1F03FB3500B924FF /* AppDelegate.swift */,
+				BA4CB3BD1F03FB3500B924FF /* ViewController.swift */,
+				BA4CB3BF1F03FB3500B924FF /* Main.storyboard */,
+				BA4CB3C51F03FB3500B924FF /* Assets.xcassets */,
+				BA4CB3C71F03FB3500B924FF /* LaunchScreen.storyboard */,
+				BA4CB3CA1F03FB3500B924FF /* Info.plist */,
+				BA4CB3C21F03FB3500B924FF /* calculatorBloodGas.xcdatamodeld */,
+			);
+			path = calculatorBloodGas;
+			sourceTree = "<group>";
+		};
+		BA4CB3D21F03FB3500B924FF /* calculatorBloodGasTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CB3D31F03FB3500B924FF /* calculatorBloodGasTests.swift */,
+				BA4CB3D51F03FB3500B924FF /* Info.plist */,
+			);
+			path = calculatorBloodGasTests;
+			sourceTree = "<group>";
+		};
+		BA4CB3DD1F03FB3500B924FF /* calculatorBloodGasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4CB3DE1F03FB3500B924FF /* calculatorBloodGasUITests.swift */,
+				BA4CB3E01F03FB3500B924FF /* Info.plist */,
+			);
+			path = calculatorBloodGasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4CB3B71F03FB3500B924FF /* calculatorBloodGas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4CB3E31F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGas" */;
+			buildPhases = (
+				BA4CB3B41F03FB3500B924FF /* Sources */,
+				BA4CB3B51F03FB3500B924FF /* Frameworks */,
+				BA4CB3B61F03FB3500B924FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calculatorBloodGas;
+			productName = calculatorBloodGas;
+			productReference = BA4CB3B81F03FB3500B924FF /* calculatorBloodGas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4CB3CE1F03FB3500B924FF /* calculatorBloodGasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4CB3E61F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGasTests" */;
+			buildPhases = (
+				BA4CB3CB1F03FB3500B924FF /* Sources */,
+				BA4CB3CC1F03FB3500B924FF /* Frameworks */,
+				BA4CB3CD1F03FB3500B924FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4CB3D11F03FB3500B924FF /* PBXTargetDependency */,
+			);
+			name = calculatorBloodGasTests;
+			productName = calculatorBloodGasTests;
+			productReference = BA4CB3CF1F03FB3500B924FF /* calculatorBloodGasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4CB3D91F03FB3500B924FF /* calculatorBloodGasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4CB3E91F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGasUITests" */;
+			buildPhases = (
+				BA4CB3D61F03FB3500B924FF /* Sources */,
+				BA4CB3D71F03FB3500B924FF /* Frameworks */,
+				BA4CB3D81F03FB3500B924FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4CB3DC1F03FB3500B924FF /* PBXTargetDependency */,
+			);
+			name = calculatorBloodGasUITests;
+			productName = calculatorBloodGasUITests;
+			productReference = BA4CB3DA1F03FB3500B924FF /* calculatorBloodGasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4CB3B01F03FB3500B924FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yuji Yamamoto";
+				TargetAttributes = {
+					BA4CB3B71F03FB3500B924FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3NDT2CQJNV;
+						ProvisioningStyle = Automatic;
+					};
+					BA4CB3CE1F03FB3500B924FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA4CB3B71F03FB3500B924FF;
+					};
+					BA4CB3D91F03FB3500B924FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA4CB3B71F03FB3500B924FF;
+					};
+				};
+			};
+			buildConfigurationList = BA4CB3B31F03FB3500B924FF /* Build configuration list for PBXProject "calculatorBloodGas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4CB3AF1F03FB3500B924FF;
+			productRefGroup = BA4CB3B91F03FB3500B924FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4CB3B71F03FB3500B924FF /* calculatorBloodGas */,
+				BA4CB3CE1F03FB3500B924FF /* calculatorBloodGasTests */,
+				BA4CB3D91F03FB3500B924FF /* calculatorBloodGasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4CB3B61F03FB3500B924FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4CB3C91F03FB3500B924FF /* LaunchScreen.storyboard in Resources */,
+				BA4CB3C61F03FB3500B924FF /* Assets.xcassets in Resources */,
+				BA4CB3C11F03FB3500B924FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3CD1F03FB3500B924FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3D81F03FB3500B924FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4CB3B41F03FB3500B924FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4CB3BE1F03FB3500B924FF /* ViewController.swift in Sources */,
+				BA4CB3BC1F03FB3500B924FF /* AppDelegate.swift in Sources */,
+				BA4CB3C41F03FB3500B924FF /* calculatorBloodGas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3CB1F03FB3500B924FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4CB3D41F03FB3500B924FF /* calculatorBloodGasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4CB3D61F03FB3500B924FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4CB3DF1F03FB3500B924FF /* calculatorBloodGasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4CB3D11F03FB3500B924FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4CB3B71F03FB3500B924FF /* calculatorBloodGas */;
+			targetProxy = BA4CB3D01F03FB3500B924FF /* PBXContainerItemProxy */;
+		};
+		BA4CB3DC1F03FB3500B924FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4CB3B71F03FB3500B924FF /* calculatorBloodGas */;
+			targetProxy = BA4CB3DB1F03FB3500B924FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4CB3BF1F03FB3500B924FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4CB3C01F03FB3500B924FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4CB3C71F03FB3500B924FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4CB3C81F03FB3500B924FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4CB3E11F03FB3500B924FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4CB3E21F03FB3500B924FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4CB3E41F03FB3500B924FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NDT2CQJNV;
+				INFOPLIST_FILE = calculatorBloodGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA4CB3E51F03FB3500B924FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NDT2CQJNV;
+				INFOPLIST_FILE = calculatorBloodGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA4CB3E71F03FB3500B924FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calculatorBloodGasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculatorBloodGas.app/calculatorBloodGas";
+			};
+			name = Debug;
+		};
+		BA4CB3E81F03FB3500B924FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calculatorBloodGasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculatorBloodGas.app/calculatorBloodGas";
+			};
+			name = Release;
+		};
+		BA4CB3EA1F03FB3500B924FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = calculatorBloodGasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = calculatorBloodGas;
+			};
+			name = Debug;
+		};
+		BA4CB3EB1F03FB3500B924FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = calculatorBloodGasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yujiyamamoto.calculatorBloodGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = calculatorBloodGas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4CB3B31F03FB3500B924FF /* Build configuration list for PBXProject "calculatorBloodGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4CB3E11F03FB3500B924FF /* Debug */,
+				BA4CB3E21F03FB3500B924FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4CB3E31F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4CB3E41F03FB3500B924FF /* Debug */,
+				BA4CB3E51F03FB3500B924FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4CB3E61F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4CB3E71F03FB3500B924FF /* Debug */,
+				BA4CB3E81F03FB3500B924FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4CB3E91F03FB3500B924FF /* Build configuration list for PBXNativeTarget "calculatorBloodGasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4CB3EA1F03FB3500B924FF /* Debug */,
+				BA4CB3EB1F03FB3500B924FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA4CB3C21F03FB3500B924FF /* calculatorBloodGas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA4CB3C31F03FB3500B924FF /* calculatorBloodGas.xcdatamodel */,
+			);
+			currentVersion = BA4CB3C31F03FB3500B924FF /* calculatorBloodGas.xcdatamodel */;
+			path = calculatorBloodGas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA4CB3B01F03FB3500B924FF /* Project object */;
+}
